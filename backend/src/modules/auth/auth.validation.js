@@ -8,9 +8,9 @@ export const signupSchema = z.object({
       .min(6, { message: "Password must be atleast 6 characters" }),
     name: z.string(),
     role: z.string().refine((val) => ["ADMIN", "USER", "GUEST"].includes(val), {
-      message: "Invalid role. Must be one of: admin, user, or guest",
+      message: "Invalid role. Must be one of: ADMIN, USER, or GUEST",
     }),
-    // restaurantId: z.string().uuid(),
+    restaurantId: z.string().uuid(),
   }),
 });
 
