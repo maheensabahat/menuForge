@@ -1,0 +1,25 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 1rem;
+}
+
+.input-label {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input-field {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-field:focus {
+  border-color: #22c55e; /* green */
+  box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.4);
+}

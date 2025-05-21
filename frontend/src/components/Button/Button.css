@@ -1,0 +1,19 @@
+.custom-button {
+  background-color: #22c55e; /* Green */
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.custom-button:hover {
+  background-color: #16a34a; /* Darker green */
+}
+
+.custom-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.4);
+}
